@@ -62,3 +62,43 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Party related Style */
+.midnight-party {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Vectorrr.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 1320px;
+  height: 600px;
+}
+.party-content h1 {
+  align-items: center;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.party-content {
+  padding: 126px 40px 142px 126px;
+  max-width: 697px;
+}
+.party-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.group-img {
+  margin-right: 138px;
+}
