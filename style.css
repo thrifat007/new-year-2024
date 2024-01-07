@@ -1,6 +1,14 @@
+/* Global Styles */
 body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+section {
+  margin: 120px 0;
 }
 /* Heading Part Style */
 .heading-img {
@@ -101,4 +109,49 @@ body {
 }
 .group-img {
   margin-right: 138px;
+}
+/* Join Now related Styles */
+.join-now-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px 16px 0px 0px;
+  padding: 100px 0 110px;
+}
+ul.join-now-time {
+  list-style: none;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+ul.join-now-time li span {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+}
+ul.join-now-time {
+  margin-bottom: 48px;
+}
+.btn-join-now {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: all 1s ease;
 }
