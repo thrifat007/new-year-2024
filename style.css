@@ -1,0 +1,64 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+/* Heading Part Style */
+.heading-img {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
+  max-width: 1320px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 16px;
+}
+.header-sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: Merriweather;
+  padding-top: 177px;
+}
+.section-title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 0px;
+}
+/* Offer related style */
+.offer-headline {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.offer-sub-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.offer-categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.offer-img {
+  display: block;
+  margin: 0 auto;
+}
