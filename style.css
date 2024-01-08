@@ -15,7 +15,7 @@ section {
 
 .heading-img {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(../resources/Banner\ Image.png);
+    url("resources/Banner\ Image.png");
   max-width: 1320px;
   height: 600px;
   margin-left: auto;
@@ -77,7 +77,7 @@ section {
 
 .midnight-party {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(resources/Vectorrr.png);
+    url("resources/Vectorrr.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -278,8 +278,8 @@ ul.join-now-time {
   display: flex;
   justify-content: space-around;
   align-items: start;
-  background: url("../resources/Rectangle 1.png"),
-    url("../resources/Rectangle 2.png"), lightgray -59.98px 0px / 151.553% 100%;
+  background: url("resources/Rectangle\ 1.png"),
+    url("resources/Rectangle\ 2.png"), lightgray -59.98px 0px / 151.553% 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-position: top right, bottom;
