@@ -1,4 +1,5 @@
 /* Global Styles */
+
 body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
@@ -10,7 +11,8 @@ body {
 section {
   margin: 120px 0;
 }
-/* Heading Part Style */
+/* Heading related Style */
+
 .heading-img {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../resources/Banner\ Image.png);
@@ -72,6 +74,7 @@ section {
 }
 
 /* Party related Style */
+
 .midnight-party {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(resources/Vectorrr.png);
@@ -107,10 +110,23 @@ section {
   line-height: 30px;
   margin-bottom: 48px;
 }
+.join-button {
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 .group-img {
   margin-right: 138px;
 }
 /* Join Now related Styles */
+
 .join-now-two {
   display: flex;
   justify-content: center;
@@ -154,4 +170,301 @@ ul.join-now-time {
   text-transform: uppercase;
   border: 1px solid transparent;
   transition: all 1s ease;
+}
+/* Best Offer related Styles */
+
+.best-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best-offer-content {
+  max-width: 393px;
+}
+.best-offer-content h3 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.best-offer-content h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.best-offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 393px;
+}
+.best-offer-img {
+  max-width: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 49px;
+}
+.best-offer-img img {
+  max-width: 364px;
+  width: 100%;
+}
+.best-offer-year-content {
+  max-width: 276px;
+}
+.best-offer-year-content h2 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.best-offer-year-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
+}
+.best-offer-year-content img {
+  width: 100%;
+  max-width: 140px;
+}
+/* Holiday Sale related styles */
+.holiday-sale {
+  width: 100%;
+  max-width: 1320px;
+  margin: 120px auto;
+}
+.holiday-sale-content {
+  text-align: center;
+}
+.holiday-sale-content h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-content h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 16px 0 28px;
+}
+.holiday-sale-content span {
+  color: #070211;
+}
+.holiday-sale-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  max-width: 73%;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+/* holiday sale image styles*/
+
+.holiday-sale-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background: url("../resources/Rectangle 1.png"),
+    url("../resources/Rectangle 2.png"), lightgray -59.98px 0px / 151.553% 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right, bottom;
+  gap: 15px;
+}
+.holiday-sale-images-1 {
+  width: 55%;
+}
+.holiday-sale-images-2 {
+  width: 45%;
+  padding-top: 77px;
+}
+
+/* Portfolio related Styles */
+
+.portfolio-section {
+  width: 100%;
+  max-width: 1320px;
+  margin: 120px auto;
+}
+.portfolio-section-content h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px auto;
+}
+.portfolio-section-content h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+.portfolio-section-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 56%;
+}
+.portfolio-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 48px;
+}
+
+/* Form related Styles */
+
+.form-section {
+  width: 100%;
+  max-width: 1320px;
+  margin: 120px auto;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 0;
+}
+.form-section h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0 auto;
+  padding: 40px 0 22px;
+}
+.form-section p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 56%;
+  margin: 0 auto;
+}
+form {
+  margin: 48px;
+}
+form input[type="email"] {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px 267px 25px 35px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  outline: none;
+}
+form input[type="button"] {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 24px 56px;
+  cursor: pointer;
+}
+
+/* Footer related styles */
+
+footer {
+  margin-top: 120px;
+  background-color: #070211;
+  max-width: 1600px;
+  margin: 120px auto 0px auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 275px 50px 140px;
+}
+
+.footer-top p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 375px;
+}
+
+.footer-top .contact p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact-call {
+  display: flex;
+  gap: 16px;
+}
+.contact-web {
+  display: flex;
+  gap: 16px;
+}
+
+.contact .icon {
+  display: flex;
+  align-items: center;
+}
+hr {
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 82.5%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 48px 0px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 82.5%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-bottom a {
+  color: white;
 }
